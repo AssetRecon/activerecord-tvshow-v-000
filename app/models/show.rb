@@ -1,4 +1,5 @@
 class Show < ActiveRecord::Base
+<<<<<<< HEAD
 attr_accessor :season
 def self.highest_rating
   Show.maximum(:rating)
@@ -27,5 +28,8 @@ end
 def self.shows_by_alphabetical_order
   Show.order(name: :asc)
 end
+=======
+
+>>>>>>> a0829f780a238f25734e3013a738f2317e6c0224
 
 end
